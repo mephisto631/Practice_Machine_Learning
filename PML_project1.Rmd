@@ -106,7 +106,7 @@ The cross validation accuracy is 99.5% and the out-of-sample error is therefore 
 
 ###Test set prediction
 The prediction of our algorithm for the test set is:
-        ```{r}
+```{r}
 ptest <- predict(rfModel, test)
 ptest
 ```
